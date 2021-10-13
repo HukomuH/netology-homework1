@@ -8,7 +8,7 @@ elif phrase_1 < phrase_2:
 else:
     print("Фразы равной длины")     
     
-    #Задание 2
+#Задание 2
 year = int(input("year "))
 if year % 4 == 0:
     print("Високосный год")
@@ -16,7 +16,7 @@ else:
     print("Обычный год")
     
     
-    #Задание 3
+#Задание 3
 day = int(input("Введите день: "))
 month = input("Введите месяц: ")
 
