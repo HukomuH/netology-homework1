@@ -1,0 +1,61 @@
+#Задание 1
+phrase_1 = int(len(input("Введите фразу 1")))
+phrase_2 = int(len(input("Введите фразу 2"))) 
+if phrase_1 > phrase_2:
+    print("Фраза 1 длиннее фразы 2")
+elif phrase_1 < phrase_2:
+    print("Фраза 2 длиннее фразы 1")
+else:
+    print("Фразы равной длины")     
+    
+    #Задание 2
+year = int(input("year "))
+if year % 4 == 0:
+    print("Високосный год")
+else:
+    print("Обычный год")
+    
+    
+    #Задание 3
+day = int(input("Введите день: "))
+month = input("Введите месяц: ")
+
+if (day >= 21 and month == "Март") or (day <= 19 and month == "Апрель"):
+    print("Ваш знак зодиака: Овен")
+elif (day >= 20 and month == "Арель") or (day <= 20 and month == "Май"):
+    print("Ваш знак зодиака: Телец")
+elif (day >= 21 and month == "Май") or (day <= 21 and month == "Июнь"):
+    print("Ваш знак зодиака: Близнецы")
+elif (day >= 22 and month == "Июнь") or (day <= 22 and month == "Июль"):
+    print("Ваш знак зодиака: Рак")
+elif (day >= 23 and month == "Июль") or (day <= 22 and month == "Август"):
+    print("Ваш знак зодиака: Лев")
+elif (day >= 23 and month == "Август") or (day <= 22 and month == "Сентябрь"):
+    print("Ваш знак зодиака: Дева")
+elif (day >= 23 and month == "Сентябрь") or (day <= 23 and month == "Октябрь"):
+    print("Ваш знак зодиака: Весы")
+elif (day >= 24 and month == "Октябрь") or (day <= 22 and month == "Ноябрь"):
+    print("Ваш знак зодиака: Скорпион")
+elif (day >= 23 and month == "Ноябрь") or (day <= 21 and month == "Декабрь"):
+    print("Ваш знак зодиака: Стрелец")
+elif (day >= 22 and month == "Декабрь") or (day <= 20 and month == "Январь"):
+    print("Ваш знак зодиака: Козерог")
+elif (day >= 21 and month == "Январь") or (day <= 18 and month == "Февраль"):
+    print("Ваш знак зодиака: Водолей")
+else:
+    print("Ваш знак зодиака: Рыбы")
+
+
+#Задание 4
+width = int(input("width"))
+length = int(input("length"))
+height = int(input("height"))
+
+if width < 15 and length < 15 and height < 15:
+    print("Коробка №1")
+elif (15 < width < 50) or (15 < length < 50) or (15 < height < 50):
+    print("Коробка №2")
+elif length > 200:
+    print("Упаковка для лыж")
+else:
+    print("Стандартная коробка №3")
